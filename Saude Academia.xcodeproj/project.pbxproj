@@ -8,17 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		31BBD3E42C5122D600C2C97D /* Saude_AcademiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BBD3E32C5122D600C2C97D /* Saude_AcademiaApp.swift */; };
-		31BBD3E62C5122D600C2C97D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BBD3E52C5122D600C2C97D /* ContentView.swift */; };
 		31BBD3E82C5122D800C2C97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD3E72C5122D800C2C97D /* Assets.xcassets */; };
 		31BBD3EB2C5122D800C2C97D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD3EA2C5122D800C2C97D /* Preview Assets.xcassets */; };
+		31BBD3FC2C5125BB00C2C97D /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BBD3FB2C5125BB00C2C97D /* OnBoardingScreen.swift */; };
+		31BBD3FE2C512DB400C2C97D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD3FD2C512DB400C2C97D /* Launch Screen.storyboard */; };
+		31BBD4042C512E0800C2C97D /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD4012C512E0800C2C97D /* Poppins-Medium.ttf */; };
+		31BBD4052C512E0800C2C97D /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD4022C512E0800C2C97D /* Poppins-Regular.ttf */; };
+		31BBD4062C512E0800C2C97D /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD4002C512E0800C2C97D /* Poppins-Light.ttf */; };
+		31BBD4072C512E0800C2C97D /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD4032C512E0800C2C97D /* Poppins-SemiBold.ttf */; };
+		31BBD4082C512E0800C2C97D /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD3FF2C512E0800C2C97D /* Poppins-Bold.ttf */; };
+		31BBD40B2C51329800C2C97D /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BBD40A2C51329800C2C97D /* UIExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31BBD3E02C5122D600C2C97D /* Saude Academia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saude Academia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31BBD3E32C5122D600C2C97D /* Saude_AcademiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saude_AcademiaApp.swift; sourceTree = "<group>"; };
-		31BBD3E52C5122D600C2C97D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31BBD3E72C5122D800C2C97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31BBD3EA2C5122D800C2C97D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31BBD3FB2C5125BB00C2C97D /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
+		31BBD3FD2C512DB400C2C97D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		31BBD3FF2C512E0800C2C97D /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		31BBD4002C512E0800C2C97D /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		31BBD4012C512E0800C2C97D /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		31BBD4022C512E0800C2C97D /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		31BBD4032C512E0800C2C97D /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		31BBD4092C5131E100C2C97D /* Saude-Academia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Saude-Academia-Info.plist"; sourceTree = SOURCE_ROOT; };
+		31BBD40A2C51329800C2C97D /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +66,15 @@
 		31BBD3E22C5122D600C2C97D /* Saude Academia */ = {
 			isa = PBXGroup;
 			children = (
+				31BBD4092C5131E100C2C97D /* Saude-Academia-Info.plist */,
+				31BBD3F62C51254C00C2C97D /* Screen */,
+				31BBD3F52C51254100C2C97D /* Model */,
+				31BBD3F42C51251000C2C97D /* ViewModel */,
+				31BBD3F32C51250500C2C97D /* UICommon */,
+				31BBD3F22C5124FC00C2C97D /* Common */,
+				31BBD3F12C5124F200C2C97D /* Fonts */,
 				31BBD3E32C5122D600C2C97D /* Saude_AcademiaApp.swift */,
-				31BBD3E52C5122D600C2C97D /* ContentView.swift */,
+				31BBD3FD2C512DB400C2C97D /* Launch Screen.storyboard */,
 				31BBD3E72C5122D800C2C97D /* Assets.xcassets */,
 				31BBD3E92C5122D800C2C97D /* Preview Content */,
 			);
@@ -65,6 +87,71 @@
 				31BBD3EA2C5122D800C2C97D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		31BBD3F12C5124F200C2C97D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				31BBD3FF2C512E0800C2C97D /* Poppins-Bold.ttf */,
+				31BBD4002C512E0800C2C97D /* Poppins-Light.ttf */,
+				31BBD4012C512E0800C2C97D /* Poppins-Medium.ttf */,
+				31BBD4022C512E0800C2C97D /* Poppins-Regular.ttf */,
+				31BBD4032C512E0800C2C97D /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		31BBD3F22C5124FC00C2C97D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		31BBD3F32C51250500C2C97D /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				31BBD40A2C51329800C2C97D /* UIExtension.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		31BBD3F42C51251000C2C97D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		31BBD3F52C51254100C2C97D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31BBD3F62C51254C00C2C97D /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				31BBD3F72C51255900C2C97D /* Login */,
+				31BBD3F82C51255E00C2C97D /* Home */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		31BBD3F72C51255900C2C97D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				31BBD3FB2C5125BB00C2C97D /* OnBoardingScreen.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		31BBD3F82C51255E00C2C97D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +212,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31BBD3FE2C512DB400C2C97D /* Launch Screen.storyboard in Resources */,
 				31BBD3EB2C5122D800C2C97D /* Preview Assets.xcassets in Resources */,
 				31BBD3E82C5122D800C2C97D /* Assets.xcassets in Resources */,
+				31BBD4042C512E0800C2C97D /* Poppins-Medium.ttf in Resources */,
+				31BBD4052C512E0800C2C97D /* Poppins-Regular.ttf in Resources */,
+				31BBD4062C512E0800C2C97D /* Poppins-Light.ttf in Resources */,
+				31BBD4072C512E0800C2C97D /* Poppins-SemiBold.ttf in Resources */,
+				31BBD4082C512E0800C2C97D /* Poppins-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31BBD3E62C5122D600C2C97D /* ContentView.swift in Sources */,
+				31BBD3FC2C5125BB00C2C97D /* OnBoardingScreen.swift in Sources */,
+				31BBD40B2C51329800C2C97D /* UIExtension.swift in Sources */,
 				31BBD3E42C5122D600C2C97D /* Saude_AcademiaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,11 +369,14 @@
 				DEVELOPMENT_TEAM = MRWW7972SX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Saude-Academia-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Academia Saúde";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +401,14 @@
 				DEVELOPMENT_TEAM = MRWW7972SX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Saude-Academia-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Academia Saúde";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
