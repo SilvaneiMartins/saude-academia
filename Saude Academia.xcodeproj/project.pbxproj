@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3100CF772C52C05700CE8F75 /* MobileNumberScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100CF762C52C05700CE8F75 /* MobileNumberScreen.swift */; };
+		3100CF792C52C3EF00CE8F75 /* OTPScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100CF782C52C3EF00CE8F75 /* OTPScreen.swift */; };
+		3100CF7B2C52C9DA00CE8F75 /* NameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100CF7A2C52C9DA00CE8F75 /* NameScreen.swift */; };
+		3100CF7D2C52CB4000CE8F75 /* GoalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100CF7C2C52CB4000CE8F75 /* GoalScreen.swift */; };
+		3127BB142C52AA2C0037EA9B /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127BB132C52AA2C0037EA9B /* SignUpScreen.swift */; };
 		31BBD3E42C5122D600C2C97D /* Saude_AcademiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BBD3E32C5122D600C2C97D /* Saude_AcademiaApp.swift */; };
 		31BBD3E82C5122D800C2C97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD3E72C5122D800C2C97D /* Assets.xcassets */; };
 		31BBD3EB2C5122D800C2C97D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD3EA2C5122D800C2C97D /* Preview Assets.xcassets */; };
@@ -21,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3100CF762C52C05700CE8F75 /* MobileNumberScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumberScreen.swift; sourceTree = "<group>"; };
+		3100CF782C52C3EF00CE8F75 /* OTPScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreen.swift; sourceTree = "<group>"; };
+		3100CF7A2C52C9DA00CE8F75 /* NameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameScreen.swift; sourceTree = "<group>"; };
+		3100CF7C2C52CB4000CE8F75 /* GoalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalScreen.swift; sourceTree = "<group>"; };
+		3127BB132C52AA2C0037EA9B /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 		31BBD3E02C5122D600C2C97D /* Saude Academia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saude Academia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31BBD3E32C5122D600C2C97D /* Saude_AcademiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saude_AcademiaApp.swift; sourceTree = "<group>"; };
 		31BBD3E72C5122D800C2C97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,6 +153,11 @@
 			isa = PBXGroup;
 			children = (
 				31BBD3FB2C5125BB00C2C97D /* OnBoardingScreen.swift */,
+				3127BB132C52AA2C0037EA9B /* SignUpScreen.swift */,
+				3100CF762C52C05700CE8F75 /* MobileNumberScreen.swift */,
+				3100CF782C52C3EF00CE8F75 /* OTPScreen.swift */,
+				3100CF7A2C52C9DA00CE8F75 /* NameScreen.swift */,
+				3100CF7C2C52CB4000CE8F75 /* GoalScreen.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -230,9 +245,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3100CF7B2C52C9DA00CE8F75 /* NameScreen.swift in Sources */,
 				31BBD3FC2C5125BB00C2C97D /* OnBoardingScreen.swift in Sources */,
 				31BBD40B2C51329800C2C97D /* UIExtension.swift in Sources */,
+				3100CF772C52C05700CE8F75 /* MobileNumberScreen.swift in Sources */,
 				31BBD3E42C5122D600C2C97D /* Saude_AcademiaApp.swift in Sources */,
+				3127BB142C52AA2C0037EA9B /* SignUpScreen.swift in Sources */,
+				3100CF7D2C52CB4000CE8F75 /* GoalScreen.swift in Sources */,
+				3100CF792C52C3EF00CE8F75 /* OTPScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

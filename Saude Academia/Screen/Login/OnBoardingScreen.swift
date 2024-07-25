@@ -2,6 +2,7 @@ import SwiftUI
 
 struct OnBoardingScreen: View {
     
+    @State var showSignUp = false
     @State private var selectPage = 0
     
     @State var pageArr = [
@@ -27,7 +28,7 @@ struct OnBoardingScreen: View {
         ZStack(alignment: .center) {
             TabView(selection: $selectPage.animation()) {
                 ForEach(0 ..< pageArr.count, id: \.self) { index in
-                    var iObj = pageArr[index]
+                    let iObj = pageArr[index]
                     
                     VStack {
                         Spacer()
@@ -87,7 +88,7 @@ struct OnBoardingScreen: View {
                 Spacer()
                 
                 Button(action: {
-                    
+                    showSignUp = true
                 }, label: {
                     Text("Próximo")
                         .font(.customfont(.semiBold, fontSize: 14))
@@ -102,10 +103,13 @@ struct OnBoardingScreen: View {
             .topWithSafe
             .bottomWithSafe
         }
+        .bgNavLink(content: SignUpScreen(), isAction: $showSignUp)
         .navHide
     }
 }
 
 #Preview {
-    OnBoardingScreen()
+    NavigationView{
+        OnBoardingScreen()
+    }
 }
