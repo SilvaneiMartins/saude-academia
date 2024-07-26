@@ -12,6 +12,7 @@
 		3100CF7B2C52C9DA00CE8F75 /* NameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100CF7A2C52C9DA00CE8F75 /* NameScreen.swift */; };
 		3100CF7D2C52CB4000CE8F75 /* GoalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100CF7C2C52CB4000CE8F75 /* GoalScreen.swift */; };
 		3127BB142C52AA2C0037EA9B /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127BB132C52AA2C0037EA9B /* SignUpScreen.swift */; };
+		3159D7D62C54661C002723C1 /* ExercisesTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3159D7D52C54661C002723C1 /* ExercisesTabScreen.swift */; };
 		31BBD3E42C5122D600C2C97D /* Saude_AcademiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BBD3E32C5122D600C2C97D /* Saude_AcademiaApp.swift */; };
 		31BBD3E82C5122D800C2C97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD3E72C5122D800C2C97D /* Assets.xcassets */; };
 		31BBD3EB2C5122D800C2C97D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD3EA2C5122D800C2C97D /* Preview Assets.xcassets */; };
@@ -23,6 +24,13 @@
 		31BBD4072C512E0800C2C97D /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD4032C512E0800C2C97D /* Poppins-SemiBold.ttf */; };
 		31BBD4082C512E0800C2C97D /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD3FF2C512E0800C2C97D /* Poppins-Bold.ttf */; };
 		31BBD40B2C51329800C2C97D /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BBD40A2C51329800C2C97D /* UIExtension.swift */; };
+		31DF4ADF2C53DDCF00202C34 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF4ADE2C53DDCF00202C34 /* SettingsScreen.swift */; };
+		31DF4AE12C53DDF700202C34 /* SettingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF4AE02C53DDF700202C34 /* SettingRow.swift */; };
+		31DF4AE32C53DE0500202C34 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF4AE22C53DE0500202C34 /* ProfileScreen.swift */; };
+		31DF4AE72C53E90500202C34 /* ReminderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF4AE62C53E90500202C34 /* ReminderScreen.swift */; };
+		31DF4AE92C53E91700202C34 /* NotifcationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF4AE82C53E91700202C34 /* NotifcationScreen.swift */; };
+		31DF4AEC2C53F56100202C34 /* TopTabViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF4AEB2C53F56100202C34 /* TopTabViewScreen.swift */; };
+		31DF4AEF2C53F5A200202C34 /* HealthTipTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF4AEE2C53F5A200202C34 /* HealthTipTabScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +39,7 @@
 		3100CF7A2C52C9DA00CE8F75 /* NameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameScreen.swift; sourceTree = "<group>"; };
 		3100CF7C2C52CB4000CE8F75 /* GoalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalScreen.swift; sourceTree = "<group>"; };
 		3127BB132C52AA2C0037EA9B /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
+		3159D7D52C54661C002723C1 /* ExercisesTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTabScreen.swift; sourceTree = "<group>"; };
 		31BBD3E02C5122D600C2C97D /* Saude Academia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saude Academia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31BBD3E32C5122D600C2C97D /* Saude_AcademiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saude_AcademiaApp.swift; sourceTree = "<group>"; };
 		31BBD3E72C5122D800C2C97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +53,13 @@
 		31BBD4032C512E0800C2C97D /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		31BBD4092C5131E100C2C97D /* Saude-Academia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Saude-Academia-Info.plist"; sourceTree = SOURCE_ROOT; };
 		31BBD40A2C51329800C2C97D /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		31DF4ADE2C53DDCF00202C34 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		31DF4AE02C53DDF700202C34 /* SettingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRow.swift; sourceTree = "<group>"; };
+		31DF4AE22C53DE0500202C34 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		31DF4AE62C53E90500202C34 /* ReminderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderScreen.swift; sourceTree = "<group>"; };
+		31DF4AE82C53E91700202C34 /* NotifcationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifcationScreen.swift; sourceTree = "<group>"; };
+		31DF4AEB2C53F56100202C34 /* TopTabViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabViewScreen.swift; sourceTree = "<group>"; };
+		31DF4AEE2C53F5A200202C34 /* HealthTipTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthTipTabScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3159D7D42C546601002723C1 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				3159D7D52C54661C002723C1 /* ExercisesTabScreen.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
 		31BBD3D72C5122D600C2C97D = {
 			isa = PBXGroup;
 			children = (
@@ -165,8 +189,56 @@
 		31BBD3F82C51255E00C2C97D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				31DF4AEA2C53F54500202C34 /* TopTabView */,
+				31DF4AE52C53E8E400202C34 /* Notification */,
+				31DF4AE42C53E8D900202C34 /* Reminder */,
+				31DF4ADD2C53DDB100202C34 /* Settings */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		31DF4ADD2C53DDB100202C34 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				31DF4ADE2C53DDCF00202C34 /* SettingsScreen.swift */,
+				31DF4AE02C53DDF700202C34 /* SettingRow.swift */,
+				31DF4AE22C53DE0500202C34 /* ProfileScreen.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		31DF4AE42C53E8D900202C34 /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				31DF4AE62C53E90500202C34 /* ReminderScreen.swift */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		31DF4AE52C53E8E400202C34 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				31DF4AE82C53E91700202C34 /* NotifcationScreen.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		31DF4AEA2C53F54500202C34 /* TopTabView */ = {
+			isa = PBXGroup;
+			children = (
+				3159D7D42C546601002723C1 /* Exercises */,
+				31DF4AED2C53F58700202C34 /* HealthTip */,
+				31DF4AEB2C53F56100202C34 /* TopTabViewScreen.swift */,
+			);
+			path = TopTabView;
+			sourceTree = "<group>";
+		};
+		31DF4AED2C53F58700202C34 /* HealthTip */ = {
+			isa = PBXGroup;
+			children = (
+				31DF4AEE2C53F5A200202C34 /* HealthTipTabScreen.swift */,
+			);
+			path = HealthTip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,13 +318,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				3100CF7B2C52C9DA00CE8F75 /* NameScreen.swift in Sources */,
+				31DF4AE12C53DDF700202C34 /* SettingRow.swift in Sources */,
+				31DF4AEC2C53F56100202C34 /* TopTabViewScreen.swift in Sources */,
+				31DF4ADF2C53DDCF00202C34 /* SettingsScreen.swift in Sources */,
 				31BBD3FC2C5125BB00C2C97D /* OnBoardingScreen.swift in Sources */,
+				3159D7D62C54661C002723C1 /* ExercisesTabScreen.swift in Sources */,
+				31DF4AE32C53DE0500202C34 /* ProfileScreen.swift in Sources */,
 				31BBD40B2C51329800C2C97D /* UIExtension.swift in Sources */,
 				3100CF772C52C05700CE8F75 /* MobileNumberScreen.swift in Sources */,
+				31DF4AE92C53E91700202C34 /* NotifcationScreen.swift in Sources */,
 				31BBD3E42C5122D600C2C97D /* Saude_AcademiaApp.swift in Sources */,
 				3127BB142C52AA2C0037EA9B /* SignUpScreen.swift in Sources */,
+				31DF4AE72C53E90500202C34 /* ReminderScreen.swift in Sources */,
 				3100CF7D2C52CB4000CE8F75 /* GoalScreen.swift in Sources */,
 				3100CF792C52C3EF00CE8F75 /* OTPScreen.swift in Sources */,
+				31DF4AEF2C53F5A200202C34 /* HealthTipTabScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

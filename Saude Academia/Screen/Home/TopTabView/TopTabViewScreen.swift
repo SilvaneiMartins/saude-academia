@@ -1,0 +1,77 @@
+import SwiftUI
+
+struct TopTabViewScreen: View {
+    
+    @State var selectTab = 0
+    @State var tabNameArr = [
+        "Dica de saúde",
+        "Exercícios",
+        "Plano de treino",
+        "Desafios",
+        "Treinadores",
+        "Nutricionista",
+    ]
+    
+    var body: some View {
+        ZStack {
+            VStack(spacing: 0) {
+                HStack {
+                    Text("Saúde")
+                        .font(.customfont(.regular, fontSize: 18))
+                        .maxLeft
+                }
+                .foregroundColor(.white)
+                .horizontal20
+                .vertical15
+                .topWithSafe
+                .background(Color.secondaryApp)
+                .padding(.bottom, 0.5)
+                
+                
+                ScrollView(.horizontal) {
+                    LazyHStack(spacing: 0) {
+                        ForEach(0 ..< tabNameArr.count, id: \.self) { index in
+                            Button(action: {
+                                withAnimation{
+                                    selectTab = index
+                                }
+                            }, label: {
+                                VStack {
+                                    Spacer()
+                                    Text(tabNameArr[index])
+                                        .font(.customfont(.regular, fontSize: 18))
+                                        .foregroundColor(index == selectTab ? Color.primaryApp : Color.white)
+                                        .horizontal20
+                                    Spacer()
+                                    
+                                    Rectangle()
+                                        .fill(index == selectTab ? Color.primaryApp : Color.clear)
+                                        .frame(height: 2, alignment: .bottom)
+                                        .horizontal15
+                                        .shadow(radius: 2)
+                                }
+                            })
+                        }
+                    }
+                }
+                .frame(height: 50)
+                .background(Color.secondaryApp)
+                
+                TabView(selection: $selectTab, content: {
+                    HealthTipTabScreen().tag(0)
+                    ExercisesTabScreen().tag(1)
+                    Text("Conteudo tab 3").tag(2)
+                    Text("Conteudo tab 4").tag(3)
+                    Text("Conteudo tab 5").tag(4)
+                    Text("Conteudo tab 6").tag(5)
+                })
+                .tabViewStyle(.page(indexDisplayMode: .never))
+            }
+        }
+        .navHide
+    }
+}
+
+#Preview {
+    TopTabViewScreen()
+}
