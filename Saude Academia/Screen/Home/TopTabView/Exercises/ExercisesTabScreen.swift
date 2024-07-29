@@ -7,6 +7,8 @@ struct ExercisesTabScreen: View {
         GridItem(.flexible(), spacing: 15),
     ]
     
+    @State var showList = false
+    
     @State var listArr = [
         [
             "title": "Chest",
@@ -58,39 +60,44 @@ struct ExercisesTabScreen: View {
                         
                         let obj = listArr[index]
                         
-                        ZStack ( alignment: .bottomTrailing) {
-                            Image(obj["image"] ?? "")
-                                .resizable()
-                                .aspectRatio(1, contentMode: .fill)
-                                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                            
-                            VStack {
-                                Text(obj["title"] ?? "")
-                                    .font(.customfont(.semiBold, fontSize: 15))
-                                    .maxCenter
+                        Button {
+                            showList = true
+                        } label: {
+                            ZStack ( alignment: .bottomTrailing) {
+                                Image(obj["image"] ?? "")
+                                    .resizable()
+                                    .aspectRatio(1, contentMode: .fill)
+                                    .frame(maxWidth: .infinity, maxHeight: .infinity)
                                 
-                                Text(obj["subtitle"] ?? "")
-                                    .font(.customfont(.regular, fontSize: 10))
-                                    .maxCenter
+                                VStack {
+                                    Text(obj["title"] ?? "")
+                                        .font(.customfont(.semiBold, fontSize: 15))
+                                        .maxCenter
+                                    
+                                    Text(obj["subtitle"] ?? "")
+                                        .font(.customfont(.regular, fontSize: 10))
+                                        .maxCenter
+                                }
+                                .foregroundColor(Color.primaryText)
+                                .padding(.horizontal, 8)
+                                .padding(.vertical, 4)
+                                .background(Color.primaryApp)
+                                .cornerRadius(15, corner: [.bottomLeft])
+                                .cornerRadius(30, corner: [.topRight])
+                                .padding(.trailing, 20)
                             }
-                            .foregroundColor(Color.primaryText)
-                            .padding(.horizontal, 8)
-                            .padding(.vertical, 4)
-                            .background(Color.primaryApp)
-                            .cornerRadius(15, corner: [.bottomLeft])
-                            .cornerRadius(30, corner: [.topRight])
-                            .padding(.trailing, 20)
+                            .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            .aspectRatio(1, contentMode: .fill)
+                            .background(Color.white)
+                            .cornerRadius(15)
+                            .shadow(radius: 2)
                         }
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                        .aspectRatio(1, contentMode: .fill)
-                        .background(Color.white)
-                        .cornerRadius(15)
-                        .shadow(radius: 2)
                     }
                 })
                 .all15
             }
         }
+        .bgNavLink(content: ExecisesListScreen(), isAction: $showList)
     }
 }
 
