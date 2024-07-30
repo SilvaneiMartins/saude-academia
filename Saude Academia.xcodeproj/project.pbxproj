@@ -15,6 +15,12 @@
 		3122A76D2C57F49100E3CB45 /* ExercisesDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122A76C2C57F49100E3CB45 /* ExercisesDetailsScreen.swift */; };
 		3127BB142C52AA2C0037EA9B /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127BB132C52AA2C0037EA9B /* SignUpScreen.swift */; };
 		3159D7D62C54661C002723C1 /* ExercisesTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3159D7D52C54661C002723C1 /* ExercisesTabScreen.swift */; };
+		3166D8652C5857D400804581 /* WorkoutPlanTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3166D8642C5857D400804581 /* WorkoutPlanTabScreen.swift */; };
+		3166D8672C5857FE00804581 /* FindWorkoutPlanScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3166D8662C5857FE00804581 /* FindWorkoutPlanScreen.swift */; };
+		3166D8692C58581900804581 /* CreatePlanScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3166D8682C58581900804581 /* CreatePlanScreen.swift */; };
+		3166D86B2C58597E00804581 /* IconTitleSubtitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3166D86A2C58597E00804581 /* IconTitleSubtitleButton.swift */; };
+		3166D86D2C585CA600804581 /* SectionMoreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3166D86C2C585CA600804581 /* SectionMoreButton.swift */; };
+		3166D86F2C58614700804581 /* RoundDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3166D86E2C58614700804581 /* RoundDropDown.swift */; };
 		31BBD3E42C5122D600C2C97D /* Saude_AcademiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BBD3E32C5122D600C2C97D /* Saude_AcademiaApp.swift */; };
 		31BBD3E82C5122D800C2C97D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD3E72C5122D800C2C97D /* Assets.xcassets */; };
 		31BBD3EB2C5122D800C2C97D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD3EA2C5122D800C2C97D /* Preview Assets.xcassets */; };
@@ -44,6 +50,12 @@
 		3122A76C2C57F49100E3CB45 /* ExercisesDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesDetailsScreen.swift; sourceTree = "<group>"; };
 		3127BB132C52AA2C0037EA9B /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 		3159D7D52C54661C002723C1 /* ExercisesTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesTabScreen.swift; sourceTree = "<group>"; };
+		3166D8642C5857D400804581 /* WorkoutPlanTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlanTabScreen.swift; sourceTree = "<group>"; };
+		3166D8662C5857FE00804581 /* FindWorkoutPlanScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindWorkoutPlanScreen.swift; sourceTree = "<group>"; };
+		3166D8682C58581900804581 /* CreatePlanScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlanScreen.swift; sourceTree = "<group>"; };
+		3166D86A2C58597E00804581 /* IconTitleSubtitleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTitleSubtitleButton.swift; sourceTree = "<group>"; };
+		3166D86C2C585CA600804581 /* SectionMoreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionMoreButton.swift; sourceTree = "<group>"; };
+		3166D86E2C58614700804581 /* RoundDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundDropDown.swift; sourceTree = "<group>"; };
 		31BBD3E02C5122D600C2C97D /* Saude Academia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Saude Academia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31BBD3E32C5122D600C2C97D /* Saude_AcademiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saude_AcademiaApp.swift; sourceTree = "<group>"; };
 		31BBD3E72C5122D800C2C97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,6 +97,16 @@
 				3122A76C2C57F49100E3CB45 /* ExercisesDetailsScreen.swift */,
 			);
 			path = Exercises;
+			sourceTree = "<group>";
+		};
+		3166D8632C5857AA00804581 /* WorkoutPlan */ = {
+			isa = PBXGroup;
+			children = (
+				3166D8642C5857D400804581 /* WorkoutPlanTabScreen.swift */,
+				3166D8662C5857FE00804581 /* FindWorkoutPlanScreen.swift */,
+				3166D8682C58581900804581 /* CreatePlanScreen.swift */,
+			);
+			path = WorkoutPlan;
 			sourceTree = "<group>";
 		};
 		31BBD3D72C5122D600C2C97D = {
@@ -152,6 +174,9 @@
 			isa = PBXGroup;
 			children = (
 				31BBD40A2C51329800C2C97D /* UIExtension.swift */,
+				3166D86A2C58597E00804581 /* IconTitleSubtitleButton.swift */,
+				3166D86C2C585CA600804581 /* SectionMoreButton.swift */,
+				3166D86E2C58614700804581 /* RoundDropDown.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -232,6 +257,7 @@
 		31DF4AEA2C53F54500202C34 /* TopTabView */ = {
 			isa = PBXGroup;
 			children = (
+				3166D8632C5857AA00804581 /* WorkoutPlan */,
 				3159D7D42C546601002723C1 /* Exercises */,
 				31DF4AED2C53F58700202C34 /* HealthTip */,
 				31DF4AEB2C53F56100202C34 /* TopTabViewScreen.swift */,
@@ -324,7 +350,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3100CF7B2C52C9DA00CE8F75 /* NameScreen.swift in Sources */,
+				3166D8672C5857FE00804581 /* FindWorkoutPlanScreen.swift in Sources */,
 				3122A76B2C57F46500E3CB45 /* ExecisesListScreen.swift in Sources */,
+				3166D86D2C585CA600804581 /* SectionMoreButton.swift in Sources */,
 				3122A76D2C57F49100E3CB45 /* ExercisesDetailsScreen.swift in Sources */,
 				31DF4AE12C53DDF700202C34 /* SettingRow.swift in Sources */,
 				31DF4AEC2C53F56100202C34 /* TopTabViewScreen.swift in Sources */,
@@ -334,11 +362,15 @@
 				31DF4AE32C53DE0500202C34 /* ProfileScreen.swift in Sources */,
 				31BBD40B2C51329800C2C97D /* UIExtension.swift in Sources */,
 				3100CF772C52C05700CE8F75 /* MobileNumberScreen.swift in Sources */,
+				3166D8652C5857D400804581 /* WorkoutPlanTabScreen.swift in Sources */,
 				31DF4AE92C53E91700202C34 /* NotifcationScreen.swift in Sources */,
 				31BBD3E42C5122D600C2C97D /* Saude_AcademiaApp.swift in Sources */,
+				3166D8692C58581900804581 /* CreatePlanScreen.swift in Sources */,
 				3127BB142C52AA2C0037EA9B /* SignUpScreen.swift in Sources */,
 				31DF4AE72C53E90500202C34 /* ReminderScreen.swift in Sources */,
+				3166D86F2C58614700804581 /* RoundDropDown.swift in Sources */,
 				3100CF7D2C52CB4000CE8F75 /* GoalScreen.swift in Sources */,
+				3166D86B2C58597E00804581 /* IconTitleSubtitleButton.swift in Sources */,
 				3100CF792C52C3EF00CE8F75 /* OTPScreen.swift in Sources */,
 				31DF4AEF2C53F5A200202C34 /* HealthTipTabScreen.swift in Sources */,
 			);
