@@ -61,9 +61,9 @@ struct TopTabViewScreen: View {
                     HealthTipTabScreen().tag(0)
                     ExercisesTabScreen().tag(1)
                     WorkoutPlanTabScreen().tag(2)
-                    Text("Conteudo tab 4").tag(3)
-                    Text("Conteudo tab 5").tag(4)
-                    Text("Conteudo tab 6").tag(5)
+                    ChallengesTabScreen().tag(3)
+                    TrainerTabScreen().tag(4)
+                    DiatecianTabScreen().tag(5)
                 })
                 .tabViewStyle(.page(indexDisplayMode: .never))
             }

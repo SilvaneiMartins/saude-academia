@@ -9,7 +9,7 @@ struct GoalScreen: View {
         ["name": "Outros"],
     ]
     
-    @State var showHome = false
+    @State var showValue = false
     @State var selectIndex = 0
     
     var body: some View {
@@ -43,7 +43,7 @@ struct GoalScreen: View {
                     }
                     
                     Button {
-                        showHome = true
+                        showValue = true
                     } label: {
                         Text("Feito")
                             .font(.customfont(.semiBold, fontSize: 14))
@@ -60,7 +60,7 @@ struct GoalScreen: View {
                 .bottomWithSafe
             }
         }
-        .bgNavLink(content: TopTabViewScreen(), isAction: $showHome)
+        .bgNavLink(content: EnterYourPhysiquesScreen(), isAction: $showValue)
         .navHide
     }
 }
