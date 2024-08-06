@@ -32,6 +32,10 @@
 		31BBD4072C512E0800C2C97D /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD4032C512E0800C2C97D /* Poppins-SemiBold.ttf */; };
 		31BBD4082C512E0800C2C97D /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31BBD3FF2C512E0800C2C97D /* Poppins-Bold.ttf */; };
 		31BBD40B2C51329800C2C97D /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BBD40A2C51329800C2C97D /* UIExtension.swift */; };
+		31DBAAEA2C5AB75100069687 /* WorkoutDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DBAAE92C5AB75100069687 /* WorkoutDetailsScreen.swift */; };
+		31DBAAEC2C5AB78800069687 /* WorkoutIntroductionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DBAAEB2C5AB78800069687 /* WorkoutIntroductionScreen.swift */; };
+		31DBAAEE2C5AB7B400069687 /* WorkoutWeekDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DBAAED2C5AB7B400069687 /* WorkoutWeekDetailScreen.swift */; };
+		31DBAAF02C5AB7D800069687 /* WorkoutDayExercisesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DBAAEF2C5AB7D800069687 /* WorkoutDayExercisesScreen.swift */; };
 		31DF4ADF2C53DDCF00202C34 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF4ADE2C53DDCF00202C34 /* SettingsScreen.swift */; };
 		31DF4AE12C53DDF700202C34 /* SettingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF4AE02C53DDF700202C34 /* SettingRow.swift */; };
 		31DF4AE32C53DE0500202C34 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DF4AE22C53DE0500202C34 /* ProfileScreen.swift */; };
@@ -69,6 +73,10 @@
 		31BBD4032C512E0800C2C97D /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		31BBD4092C5131E100C2C97D /* Saude-Academia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Saude-Academia-Info.plist"; sourceTree = SOURCE_ROOT; };
 		31BBD40A2C51329800C2C97D /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		31DBAAE92C5AB75100069687 /* WorkoutDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailsScreen.swift; sourceTree = "<group>"; };
+		31DBAAEB2C5AB78800069687 /* WorkoutIntroductionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutIntroductionScreen.swift; sourceTree = "<group>"; };
+		31DBAAED2C5AB7B400069687 /* WorkoutWeekDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutWeekDetailScreen.swift; sourceTree = "<group>"; };
+		31DBAAEF2C5AB7D800069687 /* WorkoutDayExercisesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDayExercisesScreen.swift; sourceTree = "<group>"; };
 		31DF4ADE2C53DDCF00202C34 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		31DF4AE02C53DDF700202C34 /* SettingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRow.swift; sourceTree = "<group>"; };
 		31DF4AE22C53DE0500202C34 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
@@ -105,6 +113,10 @@
 				3166D8642C5857D400804581 /* WorkoutPlanTabScreen.swift */,
 				3166D8662C5857FE00804581 /* FindWorkoutPlanScreen.swift */,
 				3166D8682C58581900804581 /* CreatePlanScreen.swift */,
+				31DBAAE92C5AB75100069687 /* WorkoutDetailsScreen.swift */,
+				31DBAAEB2C5AB78800069687 /* WorkoutIntroductionScreen.swift */,
+				31DBAAED2C5AB7B400069687 /* WorkoutWeekDetailScreen.swift */,
+				31DBAAEF2C5AB7D800069687 /* WorkoutDayExercisesScreen.swift */,
 			);
 			path = WorkoutPlan;
 			sourceTree = "<group>";
@@ -355,8 +367,11 @@
 				3166D86D2C585CA600804581 /* SectionMoreButton.swift in Sources */,
 				3122A76D2C57F49100E3CB45 /* ExercisesDetailsScreen.swift in Sources */,
 				31DF4AE12C53DDF700202C34 /* SettingRow.swift in Sources */,
+				31DBAAEA2C5AB75100069687 /* WorkoutDetailsScreen.swift in Sources */,
 				31DF4AEC2C53F56100202C34 /* TopTabViewScreen.swift in Sources */,
+				31DBAAEC2C5AB78800069687 /* WorkoutIntroductionScreen.swift in Sources */,
 				31DF4ADF2C53DDCF00202C34 /* SettingsScreen.swift in Sources */,
+				31DBAAF02C5AB7D800069687 /* WorkoutDayExercisesScreen.swift in Sources */,
 				31BBD3FC2C5125BB00C2C97D /* OnBoardingScreen.swift in Sources */,
 				3159D7D62C54661C002723C1 /* ExercisesTabScreen.swift in Sources */,
 				31DF4AE32C53DE0500202C34 /* ProfileScreen.swift in Sources */,
@@ -371,6 +386,7 @@
 				3166D86F2C58614700804581 /* RoundDropDown.swift in Sources */,
 				3100CF7D2C52CB4000CE8F75 /* GoalScreen.swift in Sources */,
 				3166D86B2C58597E00804581 /* IconTitleSubtitleButton.swift in Sources */,
+				31DBAAEE2C5AB7B400069687 /* WorkoutWeekDetailScreen.swift in Sources */,
 				3100CF792C52C3EF00CE8F75 /* OTPScreen.swift in Sources */,
 				31DF4AEF2C53F5A200202C34 /* HealthTipTabScreen.swift in Sources */,
 			);

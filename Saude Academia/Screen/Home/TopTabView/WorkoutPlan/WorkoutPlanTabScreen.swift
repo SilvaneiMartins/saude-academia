@@ -6,6 +6,7 @@ struct WorkoutPlanTabScreen: View {
     
     @State var showFind = false
     @State var showCreate = false
+    @State var showDetail = false
     
     var body: some View {
         ZStack {
@@ -36,7 +37,7 @@ struct WorkoutPlanTabScreen: View {
                     
                     VStack(spacing: 8) {
                         SectionMoreButton(title: "Construção Muscular") {
-                            
+                            showDetail = true
                         }
                         
                         VStack(spacing: 15) {
@@ -55,7 +56,7 @@ struct WorkoutPlanTabScreen: View {
                         }
                         
                         SectionMoreButton(title: "Ganhar Massa Muscular") {
-                            
+                            showDetail = true
                         }
                         
                         VStack(spacing: 15) {
@@ -80,6 +81,7 @@ struct WorkoutPlanTabScreen: View {
         }
         .bgNavLink(content: FindWorkoutPlanScreen(), isAction: $showFind)
         .bgNavLink(content: CreatePlanScreen(), isAction: $showCreate)
+        .bgNavLink(content: WorkoutDetailsScreen(), isAction: $showDetail)
     }
 }
 
